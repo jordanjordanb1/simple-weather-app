@@ -1,0 +1,22 @@
+.weather-container {
+    width: 100%; min-height: 100vh;
+    background: linear-gradient(138deg, #e88585, #9189ff, #7ab7ff, #b1fb88);
+    background-size: 800% 800%;
+    animation: GradientBackground 45s ease infinite;
+}
+
+@-webkit-keyframes GradientBackground {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@-moz-keyframes GradientBackground {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@keyframes GradientBackground {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
