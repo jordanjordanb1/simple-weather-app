@@ -1,0 +1,20 @@
+.watermark-container {
+    position: fixed; bottom: 0; right: 0;
+}
+
+.watermark-container h1 {
+    font-size: 1.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.watermark-container h1 a {
+    padding-right: 20px;
+}
+
+.watermark-container h1 a i {
+    color: black;
+}
+
+.watermark-container h1 a i:hover {
+    color: #0056b3;
+}
