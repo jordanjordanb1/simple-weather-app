@@ -12,7 +12,7 @@ export const ConfigureStore = () => {
         combineReducers({
             // Add reducers here
         }),
-        composeEnhancers(combineReducers(thunk, logger)) // Reduce composeEnhancer() and thunk before build
+        composeEnhancers(applyMiddleware(thunk, logger)) // Reduce composeEnhancer() and thunk before build
     )
 
     return store
