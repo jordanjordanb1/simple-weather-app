@@ -3,6 +3,9 @@
     background: linear-gradient(138deg, #e88585, #9189ff, #7ab7ff, #b1fb88);
     background-size: 800% 800%;
     animation: GradientBackground 45s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @-webkit-keyframes GradientBackground {
