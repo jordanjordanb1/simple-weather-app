@@ -1,4 +1,6 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux'
+import { weather } from './weather'
+
 
 import thunk from 'redux-thunk'
 import logger from 'redux-logger' // Remove before building
@@ -10,7 +12,7 @@ export const ConfigureStore = () => {
 
     const store = createStore(
         combineReducers({
-            // Add reducers here
+            weather
         }),
         composeEnhancers(applyMiddleware(thunk, logger)) // Reduce composeEnhancer() and thunk before build
     )
